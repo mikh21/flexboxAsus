@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">
+            <img height="30" src="assets/img/logo.png">
+        </div>
+        <ul id="navs">
+            <li><a href="">Product</a></li>
+            <li><a href="">Whats Hot</a></li>
+            <li><a href="">Commercial</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href=""><img height="30" src="assets/img/rognav.svg"></a></li>
+        </ul>
+        <div class="signin">
+            <a href="#">Sign In</a>
+        </div>
+        <button id="toogle"><i class="fas fa-bars"></i></button>
+    </nav>
+
+    <!-- LAYOUT -->
+    <div class="layout">
+        <div class="col-img">
+            <div class="thumb">
+                <img src="assets/img/asus-zen.png">
+            </div>
+        </div>
+        <div class="col-content">
+            <div class="desc">
+                <img width="350" src="assets/img/zenbook.png">
+                <h1>THE LAPTOP OF TOMORROW</h1>
+                <p>Take care your creativity and productivity to the next level with the innovative Asus
+                    ZenBook Pro Duo.</p>
+                <a href="#">GET NOW</a>
+            </div>
+        </div>
+    </div>
+    <div class="plus">
+        <div class="col">
+            <img src="assets/img/4k-film.svg">
+            <p>4K OLED touchscreen with ultraslim bezel</p>
+        </div>
+        <div class="col">
+            <img src="assets/img/cpu.svg">
+            <p>Powered by Intel Core Processor and RTX 2060 GPU</p>
+        </div>
+        <div class="col">
+            <img src="assets/img/touch.svg">
+            <p>Ultimate dual-touchscreen productivity</p>
+        </div>
+    </div>
+
+    <script>
+        const toogle = document.getElementById('toogle');
+        const navs = document.getElementById('navs');
+        toogle.addEventListener('click', function () {
+            navs.classList.toggle('toogle');
+        })
+    </script>
+</body>
+
+</html>
