@@ -83,7 +83,7 @@ nav button {
 
 .layout {
     width: 80%;
-    height: 700px;
+    height: 600px;
     margin: 30px auto;
     display: flex;
     box-sizing: border-box;
@@ -157,16 +157,6 @@ nav button {
 .plus .col p {
     display: inline-block;
     font-size: 14px;
-}
-
-@media (max-width: 1440px) {
-    .layout {
-        height: 550px;
-    }
-
-    .col-img .thumb img {
-        max-height: 450px;
-    }
 }
 
 @media (max-width: 1024px) {
